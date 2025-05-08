@@ -1,3 +1,5 @@
-f =open("sample.txt", "w")
+f =open("sample.txt", "r")
+read= f.read()
+print(read)
 
 f.close()
